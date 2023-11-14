@@ -56,7 +56,7 @@ ol {
 }
 .contact-list-mailto:hover,
 .contact-list-mailto:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 /* section 1-Hero-image, button */
@@ -74,7 +74,6 @@ ol {
 .button:hover,
 .button:focus {
   background-color: #404bbf;
-
 }
 .hero-image {
   background-color: #2e2f42;
@@ -116,7 +115,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-
 }
 .members {
   color: #2e2f42;
@@ -176,4 +174,13 @@ ol {
 }
 .logo-footer {
   color: #f4f4fd;
+}
+
+/* div header */
+footer .container {
+max-width: 
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right: 
 }
