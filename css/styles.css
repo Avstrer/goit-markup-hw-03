@@ -178,6 +178,7 @@ ol {
 
 /* div header */
 footer .container {
+display: flex;
 max-width: 
 padding-left:  
 padding-right:  
