@@ -235,8 +235,12 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1158px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 /* NAVIGATION */
+.logotype {
+  margin-right: 76px;
+}
 .nav {
   display: flex;
   gap: 40px;
