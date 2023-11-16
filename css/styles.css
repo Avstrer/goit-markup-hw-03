@@ -16,8 +16,40 @@ p {
   margin-bottom: 0;
   margin-left: 0;
 }
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 img {
   display: block;
+}
+button {
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+    padding-bottom: 120px;
+      padding-top: 120px;
 }
 /* body */
 body {
@@ -30,13 +62,16 @@ body {
   letter-spacing: 0px;
   text-align: left;
 }
+/* HEADER */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
 /* logotype */
 .logo {
   color: #2e2f42;
 }
 .logotype {
-  display: inline-flex;
-  align-items: center;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -47,24 +82,35 @@ body {
   text-transform: uppercase;
 }
 /* navigation */
+.nav {
+  display: flex;
+  gap: 40px;
+  width: 933;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav-menu {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 40px;
 }
 .nav-menu-link {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .nav-menu-link:hover,
 .nav-menu-link:focus {
   color: #404bbf;
 }
 .contact-list {
+  display: flex;
+  align-items: center;
   font-style: normal;
   display: inline-flex;
   align-items: flex-start;
@@ -86,7 +132,6 @@ body {
 /* section 1-Hero-image, button */
 .button {
   font-family: 'Roboto', sans-serif;
-  cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
@@ -102,7 +147,13 @@ body {
 .hero-image {
   background-color: #2e2f42;
 }
-.hero-main {
+.main-title-section {
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+.main-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -201,6 +252,3 @@ body {
 }
 
 /* div header */
-header .container {
-  display: inline-flex;
-}
