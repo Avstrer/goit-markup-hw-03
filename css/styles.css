@@ -325,7 +325,6 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-bottom: 0px;
   column-gap: 24px;
   row-gap: 48px;
