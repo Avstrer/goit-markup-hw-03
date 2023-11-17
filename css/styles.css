@@ -324,7 +324,11 @@ body {
   padding: 0px 16px;
 }
 /* footer */
+.footer {
+  padding-bottom: 100px 0;
+}
 .footer-logotype {
+  display: inline-block;
   margin-bottom: 16px;
   margin-right: auto;
 }
